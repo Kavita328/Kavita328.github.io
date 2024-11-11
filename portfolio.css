@@ -79,9 +79,8 @@ h1 {
 
 
 .accueil {
-    background-color: rgba(0,0,0,0.4);
     width: 100%;
-    height :100vh;
+    height :90vh;
     display : flex;
     align-items: center; 
     justify-content: center;
@@ -90,8 +89,26 @@ h1 {
     grid-row-end:4;
     grid-column-start: 1;
     grid-column-end: 6;
-    
+    background-image: url('./Accueil/pictures.jpg');
+    background-size: cover; 
+    background-position: center center;
+    position: relative; 
+    isolation: isolate;
+
 }
+
+.accueil::after {
+    content:''; 
+    position: absolute;
+    background-color: black;
+    z-index: -1;
+    inset : 0; 
+    opacity: .7; 
+}
+   
+
+
+
 
 .accueil h2 {
     align-items: center; 
@@ -101,7 +118,7 @@ h1 {
     color: rgba(255,255,255,0.6) ;
 }
 
-.background-video{
+/* .background-video{
     position: absolute;
     right : 0;
     bottom : 0; 
@@ -121,7 +138,7 @@ h1 {
         width: auto;
         height: 100%; 
     }
-}
+} */
 
 .webdesign {
     background-color: white;
