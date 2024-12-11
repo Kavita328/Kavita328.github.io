@@ -5,7 +5,6 @@
 }
 
 body{
-    /* background-color: rgb(228, 244, 255); */
     min-height:100vh;
     
 
@@ -45,7 +44,6 @@ li {
     line-height: 5rem;
     font-family: "Grey Qo", cursive;
     padding-left: 20px;
-    /* color:yellowgreen; */
     color: #1D385E;
 }
 
@@ -119,27 +117,6 @@ h1 {
     color: rgba(255,255,255,0.6) ;
 }
 
-/* .background-video{
-    position: absolute;
-    right : 0;
-    bottom : 0; 
-    z-index: -1;
-}
-
-@media (min-aspect-ratio: 16/9) {
-    .background-video {
-        width: 100%;
-        height: auto; 
-    }
-
-}
-
-@media (max-aspect-ratio:16/9){
-    .background-video {
-        width: auto;
-        height: 100%; 
-    }
-} */
 
 .webdesign {
     background-color: white;
@@ -184,13 +161,11 @@ h1 {
     border-radius: 40px;
     box-shadow: 10px 10px 10px 10px rgb(89, 88, 88);
     background: rgba(255, 255, 255, 1);
-    /* background: linear-gradient(90deg, rgb(240, 240, 244) 7%, rgb(129, 196, 230) 94%, rgb(177, 207, 237) 100%); */
     overflow: scroll;
 
 }
 
 .prestations img {
-    /* width : 470px; */
     width: 85%; 
     height: 60%;
     margin-left:20px; 
@@ -237,7 +212,7 @@ h1 {
 .prestations button {
     margin: 20px; 
     background: #1D385E;
-    /* background: linear-gradient(90deg, rgb(194, 194, 209) 7%, rgb(88, 194, 233) 94%, rgb(154, 174, 227) 100%); */
+    
     border-radius: 20px;
     color: white;
     width: 100px;
@@ -301,7 +276,6 @@ h1 {
     border-radius: 40px;
     box-shadow: 10px 10px 10px 10px rgb(89, 88, 88);
     background: rgba(255, 255, 255, 1);
-    /* background: linear-gradient(90deg, rgb(240, 240, 244) 7%, rgb(129, 196, 230) 94%, rgb(177, 207, 237) 100%); */
     overflow: scroll;
     
   
@@ -327,31 +301,4 @@ h1 {
     overflow: scroll;
   }
 
-
-
-/* 
-footer {
-    background: linear-gradient(90deg, rgba(87, 92, 232, 0.5) 7%, rgb(129, 196, 230) 94%, rgb(177, 207, 237) 100%);
-    height:150px;
-   
-   
-}
-
-.footer-text h3 {
-    font-family: "itim";
-    color: rgb(255, 255, 255);
-    font-size:  30px;
-
-}
-
-footer img {
-    width:50px;
-    height: 50px;
-    
-}
-
-.img-container{
-    display: flex;
-    justify-content: center;
-} */
 
