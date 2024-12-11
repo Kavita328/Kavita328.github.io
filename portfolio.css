@@ -65,6 +65,7 @@ h2 {
     font-family: "Poppins";
     font-size: 50px;
     margin : 50px;
+    color: rgb(25, 42, 86); 
 }
 
 
@@ -189,8 +190,9 @@ h1 {
 }
 
 .prestations img {
-    width : 400px;
-    height: 240px;
+    /* width : 470px; */
+    width: 85%; 
+    height: 60%;
     margin-left:20px; 
     border: 15px solid rgb(44, 43, 43);
     border-radius: 10px;
@@ -287,6 +289,45 @@ h1 {
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
   }
+
+
+
+  .videos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 80px;
+    margin : 50px;
+    border-radius: 40px;
+    box-shadow: 10px 10px 10px 10px rgb(89, 88, 88);
+    background: rgba(255, 255, 255, 1);
+    /* background: linear-gradient(90deg, rgb(240, 240, 244) 7%, rgb(129, 196, 230) 94%, rgb(177, 207, 237) 100%); */
+    overflow: scroll;
+    
+  
+    
+  }
+
+  .videol {
+    width:400px; 
+    height:250px;
+    margin : 10px;
+  }
+
+  .videoscroll {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 80px;
+    margin : 50px;
+    border-radius: 40px;
+    box-shadow: 10px 10px 10px 10px rgb(89, 88, 88);
+    background: rgba(255, 255, 255, 1);
+    overflow: scroll;
+  }
+
+
 
 /* 
 footer {
